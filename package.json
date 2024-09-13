@@ -1,0 +1,29 @@
+{
+  "name": "@shcherbin/stylelint-config",
+  "description": "Shareable stylelint config",
+  "version": "0.1.0",
+  "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
+  "repository": "vladshcherbin/stylelint-config",
+  "exports": "./index.js",
+  "dependencies": {
+    "@stylistic/stylelint-config": "^2.0.0",
+    "stylelint-config-recess-order": "^5.1.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-high-performance-animation": "^1.10.0"
+  },
+  "devDependencies": {
+    "stylelint": "^16.9.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^16.9.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "packageManager": "pnpm@9.10.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "license": "MIT"
+}
