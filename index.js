@@ -6,7 +6,8 @@ export default {
     'stylelint-config-recess-order'
   ],
   plugins: [
-    'stylelint-high-performance-animation'
+    'stylelint-high-performance-animation',
+    'stylelint-plugin-defensive-css'
   ],
   rules: {
     'plugin/no-low-performance-animation-properties': true,
