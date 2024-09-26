@@ -1,7 +1,7 @@
 {
   "name": "@shcherbin/stylelint-config",
   "description": "Shareable stylelint config",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
   "repository": "vladshcherbin/stylelint-config",
   "exports": "./index.js",
