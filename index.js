@@ -10,7 +10,9 @@ export default {
     'stylelint-plugin-defensive-css'
   ],
   rules: {
-    'plugin/no-low-performance-animation-properties': true,
+    'plugin/no-low-performance-animation-properties': [true, {
+      ignore: 'paint-properties'
+    }],
     'plugin/use-defensive-css': [true, {
       'flex-wrapping': true,
       'scroll-chaining': true,
