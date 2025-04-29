@@ -21,9 +21,9 @@
   "files": [
     "index.js"
   ],
-  "packageManager": "pnpm@9.10.0",
   "engines": {
-    "node": ">=18"
+    "node": ">= 22",
+    "pnpm": ">= 10"
   },
   "type": "module",
   "license": "MIT"
