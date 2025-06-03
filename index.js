@@ -6,10 +6,12 @@ export default {
     'stylelint-config-recess-order'
   ],
   plugins: [
+    'stylelint-gamut',
     'stylelint-high-performance-animation',
     'stylelint-plugin-defensive-css'
   ],
   rules: {
+    'gamut/color-no-out-gamut-range': true,
     'plugin/no-low-performance-animation-properties': [true, {
       ignore: 'paint-properties'
     }],
