@@ -2,6 +2,7 @@
 export default {
   extends: [
     'stylelint-config-standard',
+    'stylelint-plugin-defensive-css/configs/recommended',
     '@stylistic/stylelint-config',
     'stylelint-config-recess-order'
   ],
@@ -14,11 +15,6 @@ export default {
     'gamut/color-no-out-gamut-range': true,
     'plugin/no-low-performance-animation-properties': [true, {
       ignore: 'paint-properties'
-    }],
-    'plugin/use-defensive-css': [true, {
-      'flex-wrapping': true,
-      'scroll-chaining': true,
-      'vendor-prefix-grouping': true
     }]
   }
 }
