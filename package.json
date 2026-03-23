@@ -6,24 +6,25 @@
   "repository": "vladshcherbin/stylelint-config",
   "exports": "./index.js",
   "dependencies": {
-    "@stylistic/stylelint-config": "^2.0.0",
-    "stylelint-config-recess-order": "^6.0.0",
-    "stylelint-config-standard": "^38.0.0",
-    "stylelint-gamut": "^1.3.4",
-    "stylelint-high-performance-animation": "^1.11.0",
-    "stylelint-plugin-defensive-css": "^1.0.4"
+    "@stylistic/stylelint-config": "^4.0.0",
+    "stylelint-config-recess-order": "^7.7.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-gamut": "^2.0.0",
+    "stylelint-high-performance-animation": "^2.0.0",
+    "stylelint-order": "^8.1.1",
+    "stylelint-plugin-defensive-css": "^2.8.0"
   },
   "devDependencies": {
-    "stylelint": "^16.20.0"
+    "stylelint": "^17.5.0"
   },
   "peerDependencies": {
-    "stylelint": "^16.9.0"
+    "stylelint": "^17.5.0"
   },
   "files": [
     "index.js"
   ],
   "engines": {
-    "node": ">= 22",
+    "node": ">= 24",
     "pnpm": ">= 10"
   },
   "type": "module",
