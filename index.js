@@ -13,6 +13,7 @@ export default {
   ],
   rules: {
     'gamut/color-no-out-gamut-range': true,
+    "defensive-css/require-named-grid-lines": null,
     "defensive-css/require-pure-selectors": null,
     'plugin/no-low-performance-animation-properties': [true, {
       ignore: 'paint-properties'
